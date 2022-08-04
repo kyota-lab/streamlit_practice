@@ -1,4 +1,3 @@
-from turtle import right
 import streamlit as st
 import time
 
@@ -16,20 +15,3 @@ for i in range(100):
     time.sleep(0.05)
 
 'Done!'
-# left_column,right_column = st.columns(2)
-# button=left_column.button('右')
-# if button:
-#     right_column.write('sbcs')
-
-# expander=st.expander('qa')
-# expander.write('qa')
-
-# option1 = st.slider('?',0,100,50)
-
-# option2 = st.text_input('?')
-
-# 'abc',option1,option2
-
-# img = Image.open('沖縄イメージ1.jpg')
-# if(st.checkbox('show Image')):
-#     st.image(img,caption='okinawa',use_column_width=True)
